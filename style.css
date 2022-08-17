@@ -217,8 +217,8 @@ object-fit: cover;
     width: 50%;
   }
   .col img {
-height:350px;
-width: 450px;
+height:250px;
+width: 350px;
 object-fit: cover;
   }
 .about .text-about {
@@ -229,6 +229,7 @@ padding-right: 30px;
 }
 .blog .text-blog {
 display: block;
+font-size: 12px;
 }
 .join .form {
 align-self: flex-end;
@@ -247,5 +248,18 @@ flex: 1
 }
 .form-row > input {
 flex: 2;
+}
+.item {
+flex: 1;
+}
+.join .item {
+flex-direction: row;
+}
+.about .item {
+    flex-direction: row;
+}
+
+.download .item {
+flex-direction: row-reverse
 }
 }
