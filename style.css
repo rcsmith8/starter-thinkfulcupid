@@ -170,32 +170,35 @@ flex-direction:row;
 .item-download {
     flex: 1;
     margin: 10px;
-    flex-direction: row;
+    flex-direction: row-reverse;
+    align-self: flex-end;
 }
 .item-join {
     flex: 1;
     margin: 10px;
     flex-direction: row;
+    align-self: flex-start;
 }
 
 .item-about {
     flex: 1;
     margin: 10px;
     flex-direction: row;
+    align-self:flex-start;
 }
  .item-join img {
-height: 200px;
-width: 300px;
+height: 400px;
+width: 600px;
 object-fit:cover;
 }
 .item-about img {
-height: 50px;
-width: 75px;
+height: 100px;
+width: 150px;
 object-fit: cover;
 }
 .item-download img {
-height: 125px;
-width:150px;
+height: 350px;
+width:450px;
 object-fit: cover;
 }
 
@@ -203,5 +206,11 @@ object-fit: cover;
     flex: 0 50%;
     height: 100px;
     margin-bottom: 2%
+    flex-direction: column;
+  }
+  .grid-item img {
+height:350px;
+width: 450px;
+object-fit: cover;
   }
 }
