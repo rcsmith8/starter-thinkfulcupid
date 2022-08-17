@@ -150,20 +150,33 @@ align-items: center;
 font-size:16px;
 text-align: right;
 flex-direction:row;
-align-items: center;
+align-items: left;
 }
 .download {
 font-size: 12px;
 text-align: left;
-flex-direction:row;
-align-items: center;
-vertical-align: middle;
+flex-direction:row-reverse;
+
+
 }
 .blog {
+    min-height: 100%;
     display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
  }
+ .blog > div {
+
+  display: flex; 
+  flex-basis: calc(50% - 40px);  
+  justify-content: center;
+  flex-direction: column;}
+
+  .blog > div > div {
+    display: flex;
+  justify-content: center;
+  flex-direction: row;
+  }
 
 .item {
     flex: 1;
@@ -204,13 +217,13 @@ object-fit: cover;
 height: 350px;
 width:450px;
 object-fit: cover;
+align-content: right;
 }
 
  .blog .col {
-    width: 49%;
-    padding-bottom: 27%; 
-    margin-bottom: 2%; 
+    margin: 20px;
     }
+
   
   .col img {
 height:250px;
@@ -225,7 +238,7 @@ padding-right: 30px;
 }
 .blog .text-blog {
 display: block;
-font-size: 12px;
+font-size: 10px;
 }
 .join .form {
 align-self: flex-end;
@@ -257,5 +270,9 @@ flex-direction: row;
 
 .download .item {
 flex-direction: row-reverse;
+text-align: left;
+}
+.download .text {
+text-align: left;
 }
 }
