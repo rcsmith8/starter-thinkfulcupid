@@ -22,10 +22,10 @@
       <div class="logo">ThinkfulCupid</div>
       <nav>
         <ul id="menu">
-          <li><a>Join</a></li>
-          <li><a>About</a></li>
-          <li><a>Download</a></li>
-          <li><a>Blog</a></li>
+          <li><a href="#join">Join</a></li>
+          <li><a  href="#about">About</a></li>
+          <li><a  href="#download">Download</a></li>
+          <li><a  href="#blog">Blog</a></li>
         </ul>
       </nav>
     </header>
@@ -35,6 +35,21 @@
       <section id="join">
         <img src="images/love.png" alt="ThinkfulCupid - love" />
         <!-- Add join form here -->
+        <form> 
+        <label for="email"> Email:</label><br>
+        <input type="email" id="email" name="email"><br>    
+        <label for="password">Create a password:</label><br>
+        <input type="password" id="password" name="password"><br>
+        <label for="username">Username:</label><br>
+        <input type="text" id="username" name="username"><br>
+        <label for="gender">I am a...:</label>
+        <select name="gender" id="gender">
+        <option value="male">Male</option>  
+        <option value="female">Female</option>      
+        <option value="other">Other</option>    
+        </select>
+        <button type="submit">Join</button>
+        </form>
       </section>
 
       <!-- About -->
@@ -87,7 +102,7 @@
       <!-- Blog -->
       <section id="blog" class="alternate-background">
         <h2>Blog</h2>
-
+        
         <img src="images/blog-post-1.png" alt="Thinkfulbnb - blog post 1" />
         <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h3>
         <p>
@@ -127,9 +142,3 @@
         </p>
       </section>
     </main>
-
-    <footer>
-      <p>© Thinkful</p>
-    </footer>
-  </body>
-</html>

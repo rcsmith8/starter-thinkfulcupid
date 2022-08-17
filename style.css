@@ -34,7 +34,9 @@ section.alternate-background {
 main img {
   width: 100px;
 }
-
+img {
+ width: 100%;  
+}
 /* ---  Groups & Items --- */
 
 .group {
@@ -84,6 +86,7 @@ header nav ul li a:hover {
 form {
   border: 2px solid #6b1a22;
   padding: 10px;
+  text-align:left;
 }
 
 form label {
@@ -118,3 +121,42 @@ footer p {
 }
 
 /* -------  Media Query ------- */
+@media all and (min-width:480px)  {
+form{
+
+}
+.group {
+    flex-direction:row;
+}
+.logo {
+    font-family: "Tangerine", cursive;
+    font-size: 24px;
+    color: #ecdbc9;
+    text-align:left;
+    padding: 30 0px;
+}
+header nav {
+    display: flex;
+justify-content: right;
+font-size:10px;
+}
+.about {
+font-size:12px;
+text-align: right;
+}
+.download {
+font-size: 12px;
+text-align: left;
+
+}
+.blog {
+    display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.item {
+    flex: 0 32%;
+    height: 100px;
+    margin-bottom: 2%; /* (100-32*3)/2 */
+  }
+}
