@@ -159,10 +159,7 @@ justify-content: center;
 }
 .blog {
     display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-
-}
+ }
 
 .item {
     flex: 1;
@@ -205,11 +202,16 @@ width:450px;
 object-fit: cover;
 }
 
-  .grid-item {
-    flex: 0 50%;
+ .blog .col {
+    width: 50%;
     height: 100px;
     margin-bottom: 2%
-    flex-direction: column;
+    }
+  .blow-row {
+    display:flex;
+  }
+  .blog-row .col {
+    width: 50%;
   }
   .grid-item img {
 height:350px;
