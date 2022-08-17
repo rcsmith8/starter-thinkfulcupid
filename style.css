@@ -260,6 +260,6 @@ flex-direction: row;
 }
 
 .download .item {
-flex-direction: row-reverse
+flex-direction: row-reverse;
 }
 }
