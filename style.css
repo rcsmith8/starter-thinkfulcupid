@@ -221,16 +221,31 @@ height:350px;
 width: 450px;
 object-fit: cover;
   }
-.text-about {
+.about .text-about {
 padding-left: 30px;
 }
-.text-download {
+.download .text-download {
 padding-right: 30px;
 }
-.text-blog {
+.blog .text-blog {
 display: block;
 }
-.form {
+.join .form {
 align-self: flex-end;
+}
+.wrapper {
+padding:0;
+}
+.form-row {
+display: flex;
+justify-content: flex-end;
+padding: .5em;
+}
+.form-row > label {
+padding: .5em 1em .5em 0;
+flex: 1
+}
+.form-row > input {
+flex: 2;
 }
 }
