@@ -140,6 +140,9 @@ header nav {
 justify-content: right;
 font-size:10px;
 }
+header nav ul {
+display: flex;
+}
 .about {
 font-size:12px;
 text-align: right;
@@ -153,10 +156,9 @@ text-align: left;
     display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  flex: 0 32%;
+  height: 100px;
+  margin-bottom: 2%; /* (100-32*3)/2 */
 }
-.item {
-    flex: 0 32%;
-    height: 100px;
-    margin-bottom: 2%; /* (100-32*3)/2 */
-  }
+
 }
