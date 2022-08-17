@@ -164,9 +164,41 @@ flex-direction:row;
 .item {
     flex: 1;
     margin: 10px;
+    flex-direction: row;
   }
   
-  
+.item-download {
+    flex: 1;
+    margin: 10px;
+    flex-direction: row;
+}
+.item-join {
+    flex: 1;
+    margin: 10px;
+    flex-direction: row;
+}
+
+.item-about {
+    flex: 1;
+    margin: 10px;
+    flex-direction: row;
+}
+ .item-join img {
+height: 200px;
+width: 300px;
+object-fit:cover;
+}
+.item-about img {
+height: 50px;
+width: 75px;
+object-fit: cover;
+}
+.item-download img {
+height: 125px;
+width:150px;
+object-fit: cover;
+}
+
   .grid-item {
     flex: 0 50%;
     height: 100px;
