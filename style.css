@@ -144,18 +144,21 @@ display: flex;
 .join {
 flex-direction:row;
 justify-content: center;
+align-items: center;
 }
 .about {
 font-size:12px;
 text-align: right;
 flex-direction:row;
 justify-content: center;
+align-items: center;
 }
 .download {
 font-size: 12px;
 text-align: left;
 flex-direction:row;
 justify-content: center;
+align-items: center;
 }
 .blog {
     display: flex;
@@ -207,13 +210,13 @@ object-fit: cover;
     height: 100px;
     margin-bottom: 2%
     }
-  .blow-row {
+  .blog-row {
     display:flex;
   }
   .blog-row .col {
     width: 50%;
   }
-  .grid-item img {
+  .col img {
 height:350px;
 width: 450px;
 object-fit: cover;
@@ -227,5 +230,7 @@ padding-right: 30px;
 .text-blog {
 display: block;
 }
-
+.form {
+align-self: flex-end;
+}
 }
