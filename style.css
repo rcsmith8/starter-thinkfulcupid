@@ -230,8 +230,8 @@ width: 250px;
 object-fit: cover;
 }
 .download img {
-height: 400px;
-width:600px;
+height: fit-content;
+width:fit-content;
 object-fit: cover;
 margin-left: auto;
 display: block;
@@ -291,6 +291,7 @@ text-align: left;
 
 }
 .download .item .text {
+    height: fit-content;
     position: relative;
     bottom: 70px;
 
