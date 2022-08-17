@@ -122,9 +122,7 @@ footer p {
 
 /* -------  Media Query ------- */
 @media all and (min-width:480px)  {
-form{
 
-}
 .group {
     flex-direction:row;
 }
@@ -164,12 +162,11 @@ flex-direction:row;
 }
 
 .item {
-    flex-grow: 1;
+    flex: 1;
+    margin: 10px;
   }
   
-  .item + .item {
-    margin-left: 2%;
-  }
+  
   .grid-item {
     flex: 0 50%;
     height: 100px;
