@@ -162,13 +162,9 @@ flex-direction:row;
   justify-content: space-between;
 
 }
-.item img {
-height: auto;
-width: auto;
-}
+
 .item {
     flex-grow: 1;
-    height: 100px;
   }
   
   .item + .item {
