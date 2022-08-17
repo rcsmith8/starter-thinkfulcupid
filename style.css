@@ -159,9 +159,12 @@ text-align: left;
 flex-direction:row;
 justify-content: center;
 align-items: center;
+vertical-align: middle;
 }
 .blog {
     display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
  }
 
 .item {
@@ -189,33 +192,29 @@ align-items: center;
     flex-direction: row;
     align-self:flex-start;
 }
- .item-join img {
+.join .item img {
 height: 400px;
 width: 600px;
 object-fit:cover;
 }
-.item-about img {
+.about .item img {
 height: 100px;
 width: 150px;
 object-fit: cover;
 }
-.item-download img {
+.download .item img {
 height: 350px;
 width:450px;
 object-fit: cover;
 }
 
  .blog .col {
-    width: 50%;
-    height: 100px;
-    margin-bottom: 2%
+    width: 49%;
+    padding-bottom: 49%; 
+    margin-bottom: 2%; 
+    position: relative;
     }
-  .blog-row {
-    display:flex;
-  }
-  .blog-row .col {
-    width: 50%;
-  }
+  
   .col img {
 height:250px;
 width: 350px;
