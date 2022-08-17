@@ -32,7 +32,8 @@ section.alternate-background {
 }
 
 main img {
-  width: 100px;
+  width: 200px;
+  align-self: center;
 }
 img {
  width: 100%;  
@@ -107,6 +108,21 @@ form button {
   padding: 15px;
   width: 100%;
 }
+.wrapper {
+    padding:0;
+    }
+    .form-row {
+    display: flex;
+    justify-content: flex-end;
+    padding: .5em;
+    }
+    .form-row > label {
+    padding: .5em 1em .5em 0;
+    flex: 1
+    }
+    .form-row > input {
+    flex: 2;
+    }
 
 /* -------  Footer ------- */
 
@@ -213,11 +229,12 @@ height: 200px;
 width: 250px;
 object-fit: cover;
 }
-.download .item img {
-height: 350px;
-width:450px;
+.download img {
+height: 400px;
+width:600px;
 object-fit: cover;
-align-content: right;
+margin-left: auto;
+display: block;
 }
 
  .blog .col {
@@ -271,8 +288,12 @@ flex-direction: row;
 .download .item {
 flex-direction: row-reverse;
 text-align: left;
+
 }
-.download .text {
-text-align: left;
+.download .item .text {
+    position: relative;
+    bottom: 70px;
+
 }
+
 }
