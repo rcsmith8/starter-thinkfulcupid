@@ -246,18 +246,21 @@ align-self: center;
     align-self:flex-start;
 }
 .join .item img {
+  display:flex;
 max-width: 100%;
-height: 100vh;
+max-height: 100%;
 object-fit:cover;
 }
 .about .item img {
+  display:flex;
   max-width: 100%;
-  height: 100vh;
+  max-height: 100%;
 object-fit: cover;
 }
 .download .item img {
+  display:flex;
   max-width: 100%;
-  height: 100vh;
+  max-height: 100%;
 object-fit: cover;
 margin-left: auto;
 align-self: flex-end;
@@ -271,8 +274,9 @@ padding-top: 25%;
 
   
   .col img {
+    display:flex;
     max-width: 100%;
-    height: 100vh;;
+    max-height: 100%;
 object-fit: cover;
   }
 .about .text-about {
