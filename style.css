@@ -195,9 +195,9 @@ flex-direction:row;
 .download .text {
 text-align: left;
 font-size:1vw;
+padding-top: 20px;
 }
 .download > h2 {
-    position: absolute;
     align-self:center;
 }
 .blog > h2 {
@@ -336,5 +336,10 @@ text-align: left;
 
 
 }
-
+.download-head > h2 {
+  top: 0;
+  left: 50%;
+  position: absolute;
+  
+}
 }
