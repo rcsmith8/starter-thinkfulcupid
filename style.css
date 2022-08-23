@@ -145,13 +145,11 @@ footer p {
 @media all and (min-width:480px)  {
 
     h2 {
-      display: flex;
       font-size:3vw;
     position: absolute;
     text-align:center;
     align-items: center;
     justify-content: center;
-    margin-left: 50%
     }
 .group {
     flex-direction:row;
@@ -193,9 +191,7 @@ text-align: left;
 font-size:1.25vw;
 padding-top: 17%;
 }
-.download > h2 {
-    align-self:center;
-}
+
 .blog > h2 {
 position:absolute;
 align-self: center;
@@ -333,7 +329,14 @@ text-align: left;
 
 
 }
-.download-head > h2 {
-    margin-left:40%;
+
+body > h2 {
+  text-align:center;
+}
+.headers {
+  text-align:center;
+  display: flex; 
+  justify-content: center; 
+  width: 100%;
 }
 }
