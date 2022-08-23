@@ -150,7 +150,7 @@ footer p {
 
     h2 {
       display: flex;
-      font-size:5vw;
+      font-size:3vw;
     position: absolute;
     text-align:center;
     align-items: center;
@@ -176,24 +176,25 @@ header nav ul {
 display: flex;
 }
 .join {
+  display:flex;
 flex-direction:row;
 justify-content: center;
 align-items: center;
 }
 .about {
-font-size:2vw;
+font-size:1vw;
 text-align: right;
 flex-direction:row;
 align-items: left;;
 }
 .download {
     display:flex;
-    font-size:2vw;
-text-align: left;
+    font-size:1vw;
 flex-direction:row;
 }
 .download .text {
 text-align: left;
+font-size:1vw;
 }
 .download > h2 {
     position: absolute;
@@ -204,7 +205,7 @@ position:absolute;
 align-self: center;
 }
 .blog {
-  font-size:2vw;
+  font-size:1vw;
     display: flex;
     min-height: 100%;
     flex-wrap: wrap;
@@ -265,7 +266,6 @@ flex-grow: 3;
 .download .item img {
   display:flex;
   min-width: 100%;
-  max-width: 100%;
   max-height: 100%;
 object-fit: contain;
 margin-left: auto;
@@ -332,7 +332,6 @@ text-align: left;
 
 }
 .download .item .text {
-    height: fit-content;
     position: relative;
 
 
