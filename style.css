@@ -30,7 +30,6 @@ section.alternate-background {
 }
 
 main img {
-  width: 200px;
   align-self: center;
 }
 img {
@@ -192,7 +191,7 @@ flex-direction:row;
 .download .text {
 text-align: left;
 font-size:1.25vw;
-padding-top: 45px;
+padding-top: 17%;
 }
 .download > h2 {
     align-self:center;
