@@ -149,6 +149,7 @@ footer p {
 @media all and (min-width:480px)  {
 
     h2 {
+      font-size:5vw;
     position: absolute;
     text-align:center;
     align-self: center;
@@ -179,14 +180,14 @@ justify-content: center;
 align-items: center;
 }
 .about {
-font-size:16px;
+font-size:2vw;
 text-align: right;
 flex-direction:row;
 align-items: left;;
 }
 .download {
     display:flex;
-font-size: 12px;
+    font-size:2vw;
 text-align: left;
 flex-direction:row;
 }
@@ -202,6 +203,7 @@ position:absolute;
 align-self: center;
 }
 .blog {
+  font-size:2vw;
     display: flex;
     min-height: 100%;
     flex-wrap: wrap;
