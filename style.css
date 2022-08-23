@@ -188,7 +188,10 @@ align-items: left;;
     display:flex;
 font-size: 12px;
 text-align: left;
-flex-direction:row-reverse;
+flex-direction:row;
+}
+.download .text {
+text-align: left;
 }
 .download > h2 {
     position: absolute;
@@ -243,18 +246,18 @@ align-self: center;
     align-self:flex-start;
 }
 .join .item img {
-height: 400px;
-width: 600px;
+max-width: 100%;
+height: 100vh;
 object-fit:cover;
 }
 .about .item img {
-height: 200px;
-width: 250px;
+  max-width: 100%;
+  height: 100vh;
 object-fit: cover;
 }
 .download .item img {
-height: 350px;
-width:500px;
+  max-width: 100%;
+  height: 100vh;
 object-fit: cover;
 margin-left: auto;
 align-self: flex-end;
@@ -268,17 +271,15 @@ padding-top: 25%;
 
   
   .col img {
-height:250px;
-width: 350px;
+    max-width: 100%;
+    height: 100vh;;
 object-fit: cover;
   }
 .about .text-about {
 padding-left: 30px;
 padding-top: 5%;
 }
-.download .text-download {
-padding-right: 30px;
-}
+
 .blog .text-blog {
 display: block;
 font-size: 10px;
@@ -314,6 +315,7 @@ flex-direction: row;
 
 .download .item {
 flex-direction: row-reverse;
+padding-top:5%;
 text-align: left;
 
 }
