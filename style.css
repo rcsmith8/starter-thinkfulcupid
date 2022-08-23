@@ -179,19 +179,19 @@ justify-content: center;
 align-items: center;
 }
 .about {
-font-size:1vw;
+font-size:1.25vw;
 text-align: right;
 flex-direction:row;
 align-items: left;;
 }
 .download {
     display:flex;
-    font-size:1vw;
+    font-size:1.25vw;
 flex-direction:row;
 }
 .download .text {
 text-align: left;
-font-size:1vw;
+font-size:1.25vw;
 padding-top: 20px;
 }
 .download > h2 {
@@ -207,6 +207,7 @@ align-self: center;
     min-height: 100%;
     flex-wrap: wrap;
     flex-direction: row;
+    padding-top:15px;
  }
  .blog > div {
 
@@ -334,6 +335,6 @@ text-align: left;
 
 }
 .download-head > h2 {
-    padding-right:10px;
+    margin-left:40%;
 }
 }
